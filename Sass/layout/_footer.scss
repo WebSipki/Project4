@@ -1,0 +1,51 @@
+
+/**FOOTER**/
+.footer {
+    background: $bkg-foot;
+    padding: 25px;
+  
+    
+
+    .footer__logo {
+        filter: invert(100%);
+        width: 130px;
+        padding: 0px 0px 5px 20px;
+      
+    }
+    .footer__links {
+        text-decoration: none;
+        display: flex;
+
+      ul{
+        list-style-type: none ;
+
+        li {
+            display: block;
+            margin-top: 10px;
+        }
+            a {
+            
+                color: $color-w;
+                margin-top: 10px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    } 
+    .fa-utensils{
+        @include icon_footer 
+     
+    }
+    .fa-hands-helping{
+        @include icon_footer
+       
+      
+    }
+    .footer__container2{
+        display: none; 
+
+    }
+    
+}
+

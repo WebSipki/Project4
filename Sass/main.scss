@@ -1,0 +1,36 @@
+
+// abstracts 
+@import "./abstracts/variables" ;
+@import "./abstracts/animations" ;
+@import "./abstracts/mixins" ;
+@import "./abstracts/breakpoints" ;
+
+// base
+@import "./base/typography" ;
+@import "./base/reset" ;
+// components
+@import "./components/buttons" ;
+
+// layout
+@import "./layout/header" ;
+@import "./layout/footer" ;
+@import "./layout/loader" ;
+@import "./layout/explorer" ;
+@import "./layout/fonctionnement" ;
+@import "./layout/restaurants" ;
+
+// layout pages restaurant
+@import "./layout/resto-header" ;
+@import "./layout/resto-banner" ;
+@import "./layout/resto-menu" ;
+@import "./layout/resto-ctg" ;
+
+
+   
+
+// Annimation card check
+@import "./abstracts/animations" ;
+
+// Media Query Desktop
+@include desktop1; 
+
