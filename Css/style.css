@@ -323,7 +323,7 @@ input[type=checkbox] {
 .center {
     max-width: 1440px;
     margin: auto;
-}**/
+}
 .menu_cards {
     display: flex;
     flex-direction: column;

@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant gastronomique qui prépare les plats dès votre arrivée">
     <link rel="stylesheet" href="./Sass/main.css">
-    <link rel="stylesheet" href="../Sass/abstracts/_variables.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -26,9 +26,11 @@
             <div class="logo">
                 <img src="./images/images/logo/ohmyfood@2x.svg" alt="logo-ohmyfood"> 
             </div>
+              <!-- Recherche par ville -->
             <div class="header__location">
                 <i class="icon iconlocation fas fa-map-marker-alt" aria-hidden="true"></i>
-                <p>Paris, Belleville</p>
+                <input type="text" class="loca" id="search" placeholder="Paris, Belleville">
+<!--<p>Paris, Belleville</p>-->
             </div>
         </header>
     
@@ -36,8 +38,8 @@
         <main>
             <!-- Explorer -->
             <section class="explorer">
-                <h1 class="explorer_title Roboto_bold">Réservez le menu qui vous convient</h1>
-                <p class="explorer_subtitle Roboto_light">Décourez des restaurants d'exeption, sélectionnés par nos soins.</p>
+                <h2 class="explorer_title">Réservez le menu qui vous convient</h2>
+                <p>Découvrez des restaurants d'exeption, sélectionnés par nos soins.</p>
                <button class="btn_main">Explorer nos restaurants</button>
             </section> 
                 <!-- Fonctionnement -->

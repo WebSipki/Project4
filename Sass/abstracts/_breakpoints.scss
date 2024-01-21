@@ -1,32 +1,11 @@
-$breakpoints:
-(
-    "tablet": 768px,
-    "desktop": 1065px,
-);
-
-@mixin tablet 
-{
-    @media screen and (min-width: map-get($breakpoints, "tablet")) {
-        @content;
-    }
-}
-
-@mixin desktop
-{
-    @media screen and (min-width: map-get($breakpoints, "desktop")) {
-        @content;
-    } 
-}
-
-
-
-@mixin desktop1{
-
-@media screen and (min-width:410px) {
+@media screen and (min-width:391px) {
 
     body {
-        width: auto; 
-    
+        width: 1400px; 
+           .loader {             
+            margin: 50%;   
+        } 
+
         /**fonctionnement**/
         .fonctionnement_family{
             display: flex;
@@ -50,65 +29,18 @@ $breakpoints:
                     width: 100%;
                     margin-bottom: 10%;
                 }
-
             }
         }
         
         .menu {
-
-            width: 80%;
+           width: 80%;
            margin-left:  10%;
 
            .menu_categories{
             width: 60%;
             margin-left:  20%
            }
-
         }
-
-
-        /**footer**/
-        .footer {
-            display: flex;
-            width: auto;
-          
-            .footer__container1{
-                    display: none; 
-
-            }
-                .footer__links {
-                    display: flex;
-                    margin-left: 1%;
-                    width: 200em;
-                    margin-left:  20em;
-
-                    li{
-                        display: inline-block;
-                        width: 15em;
-
-                        .footer__links-item {
-                        
-                            margin-right: 1%;
-                            margin-left: 1%;
-                            
-                        }
-                    }
-                }
-                .footer__container2{
-                    display: flex; 
-                .footer__logo {
-                    
-                    color: #bdbcbc;
-                     width: 130px;
-                    padding: 0px 0px 5px 5px;
-                  
-                }
-
-
-            }
-        } 
-
-       
     } 
 }
-}
+

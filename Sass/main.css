@@ -112,6 +112,43 @@
   animation: appear 9s;
 }
 
+@media screen and (min-width: 391px) {
+  body {
+    width: 1400px;
+    /**fonctionnement**/
+    /**Restaurant**/
+  }
+  body .loader {
+    margin: 50%;
+  }
+  body .fonctionnement_family {
+    display: flex;
+  }
+  body .fonctionnement_family .fonctionnement_card {
+    width: 35%;
+    margin-right: 2%;
+  }
+  body .restaurants__family {
+    display: flex;
+  }
+  body .restaurants__family .restaurants__subfamily {
+    margin-top: 2%;
+    width: 50%;
+    margin-right: 5%;
+  }
+  body .restaurants__family .restaurants__subfamily .restaurants__card {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  body .menu {
+    width: 80%;
+    margin-left: 10%;
+  }
+  body .menu .menu_categories {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
 body {
   width: 390px;
   font-family: "roboto", sans-serif;
@@ -120,10 +157,10 @@ body h1 {
   font-family: "Shrikhand", sans-serif;
 }
 body .Roboto_bold {
-  font-family: "Roboto-Bold";
+  font-family: "roboto", sans-serif;
 }
 body .Roboto_light {
-  font-family: "Roboto-Light";
+  font-family: "roboto", sans-serif;
 }
 
 * {
@@ -137,6 +174,11 @@ body {
   width: 390px;
 }
 
+@media screen and (min-width: 391px) {
+  body {
+    width: 1400px;
+  }
+}
 /**Button Explorer**/
 button {
   padding: 20px 50px;
@@ -223,6 +265,10 @@ button:hover {
   color: #353535;
   text-shadow: 0px 0px 0px #626262;
 }
+.header .header__location .loca {
+  border: none;
+  background-color: #eaeaea;
+}
 
 /**FOOTER**/
 .footer {
@@ -266,6 +312,42 @@ button:hover {
   display: none;
 }
 
+@media screen and (min-width: 600px) {
+  /**footer**/
+  .footer {
+    display: flex;
+    width: auto;
+  }
+  .footer .footer__container1 {
+    display: none;
+  }
+  .footer .footer__links {
+    margin-left: 1%;
+    width: 250em;
+    margin-left: 20em;
+  }
+  .footer .footer__links ul {
+    display: flex;
+  }
+  .footer .footer__links ul li {
+    display: flex;
+    width: 13em;
+    align-items: center;
+    margin-left: 1%;
+  }
+  .footer .footer__links ul li .footer__links-item {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .footer .footer__container2 {
+    display: flex;
+  }
+  .footer .footer__container2 .footer__logo {
+    color: #bdbcbc;
+    width: 130px;
+    padding: 0px 0px 5px 5px;
+  }
+}
 .anim-load {
   position: fixed;
   background-color: white;
@@ -287,7 +369,7 @@ button:hover {
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  margin: 20% auto;
+  margin: 80% 30%;
   animation: spin 0.5s linear infinite;
 }
 
@@ -303,7 +385,7 @@ button:hover {
   font-family: "Roboto", sans-serif;
 }
 .explorer .explorer_title {
-  font-size: 50px;
+  font-size: 28px;
   font-weight: bold;
   margin: 10px 5px;
 }
@@ -508,7 +590,8 @@ button:hover {
 .menu .menu_header .menu_header_title {
   font-family: "Shrikhand";
   font-size: 24px;
-  margin-right: 25px;
+  margin-right: 70px;
+  margin-left: 2px;
 }
 .menu .menu_header i {
   margin-left: 10em;
@@ -721,69 +804,4 @@ button:hover {
 .delay_8 {
   animation-delay: 9s;
   animation: appear 9s;
-}
-
-@media screen and (min-width: 410px) {
-  body {
-    width: auto;
-    /**fonctionnement**/
-    /**Restaurant**/
-    /**footer**/
-  }
-  body .fonctionnement_family {
-    display: flex;
-  }
-  body .fonctionnement_family .fonctionnement_card {
-    width: 35%;
-    margin-right: 2%;
-  }
-  body .restaurants__family {
-    display: flex;
-  }
-  body .restaurants__family .restaurants__subfamily {
-    margin-top: 2%;
-    width: 50%;
-    margin-right: 5%;
-  }
-  body .restaurants__family .restaurants__subfamily .restaurants__card {
-    width: 100%;
-    margin-bottom: 10%;
-  }
-  body .menu {
-    width: 80%;
-    margin-left: 10%;
-  }
-  body .menu .menu_categories {
-    width: 60%;
-    margin-left: 20%;
-  }
-  body .footer {
-    display: flex;
-    width: auto;
-  }
-  body .footer .footer__container1 {
-    display: none;
-  }
-  body .footer .footer__links {
-    display: flex;
-    margin-left: 1%;
-    width: 200em;
-    margin-left: 20em;
-  }
-  body .footer .footer__links li {
-    display: inline-block;
-    width: 15em;
-  }
-  body .footer .footer__links li .footer__links-item {
-    margin-right: 1%;
-    margin-left: 1%;
-  }
-  body .footer .footer__container2 {
-    display: flex;
-  }
-  body .footer .footer__container2 .footer__logo {
-    color: #bdbcbc;
-    width: 130px;
-    padding: 0px 0px 5px 5px;
-  }
 }/*# sourceMappingURL=main.css.map */
