@@ -1,14 +1,49 @@
 @media all and (min-width: 391px) and (max-width: 769px){
 
 }
-
-
-
-
-
-
 @media screen and (min-width:769px) {
 
+    body {
+        width: 100%; 
+         
+    /**fonctionnement**/
+        .fonctionnement_family{
+            display: flex;
+       
+            .fonctionnement_card {
+               width: 35%;
+                margin-right: 2%;
+            }
+        }
+
+        /**Restaurant**/
+        .restaurants__family {
+            display: flex;
+        
+            .restaurants__subfamily {
+                margin-top: 2%;
+                width: 50%;
+                margin-right: 5%;
+            
+                .restaurants__card {
+                    width: 100%;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+        
+        .menu {
+           width: 80%;
+           margin-left:  10%;
+
+           .menu_categories{
+            width: 60%;
+            margin-left:  20%
+           }
+        }
+    } 
+}
+@media all and (min-width: 769px) and (max-width: 1024px){
     body {
         width: 100%; 
          
@@ -50,4 +85,5 @@
         }
     } 
 }
+
 

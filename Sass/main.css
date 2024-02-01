@@ -146,6 +146,40 @@
     margin-left: 20%;
   }
 }
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    width: 100%;
+    /**fonctionnement**/
+    /**Restaurant**/
+  }
+  body .fonctionnement_family {
+    display: flex;
+  }
+  body .fonctionnement_family .fonctionnement_card {
+    width: 35%;
+    margin-right: 2%;
+  }
+  body .restaurants__family {
+    display: flex;
+  }
+  body .restaurants__family .restaurants__subfamily {
+    margin-top: 2%;
+    width: 50%;
+    margin-right: 5%;
+  }
+  body .restaurants__family .restaurants__subfamily .restaurants__card {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  body .menu {
+    width: 80%;
+    margin-left: 10%;
+  }
+  body .menu .menu_categories {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
 body {
   width: 390px;
   font-family: "roboto", sans-serif;
@@ -309,40 +343,68 @@ button:hover {
   display: none;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   /**footer**/
   .footer {
     display: flex;
     width: 98%;
+    flex-direction: row-reverse;
+    align-items: baseline;
   }
   .footer .footer__container1 {
-    display: none;
+    margin-right: 1%;
+  }
+  .footer ul {
+    display: flex;
+  }
+  .footer ul .ctc1 {
+    width: 9rem;
+  }
+  .footer ul .ctc2 {
+    width: 4rem;
+  }
+  .footer ul li {
+    display: flex;
+    width: 13rem;
+    align-items: baseline;
+    margin-left: 1%;
+  }
+  .footer ul li .footer__links-item {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  /**footer**/
+  .footer {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: baseline;
+  }
+  .footer .footer__container1 {
+    margin-right: 1%;
   }
   .footer .footer__links {
     margin-left: 1%;
-    width: 250em;
-    margin-left: 20%;
   }
   .footer .footer__links ul {
     display: flex;
   }
+  .footer .footer__links ul .ctc1 {
+    width: 9rem;
+  }
+  .footer .footer__links ul .ctc2 {
+    width: 4rem;
+  }
   .footer .footer__links ul li {
-    display: flex;
-    width: 13em;
+    width: 13rem;
     align-items: center;
     margin-left: 1%;
   }
   .footer .footer__links ul li .footer__links-item {
     margin-right: 1%;
     margin-left: 1%;
-  }
-  .footer .footer__container2 {
-    display: flex;
-  }
-  .footer .footer__container2 .footer__logo {
-    color: #bdbcbc;
-    width: 130px;
-    padding: 0px 0px 5px 5px;
   }
 }
 .anim-load {
