@@ -202,10 +202,10 @@ body .Roboto_light {
 }
 
 body {
-  width: 390px;
+  width: 320px;
 }
 
-@media screen and (min-width: 391px) {
+@media screen and (min-width: 321px) {
   body {
     width: 100%;
   }
@@ -500,6 +500,9 @@ button:hover {
   font-size: 12px;
   margin-left: -15px;
   margin-right: 15px;
+}
+.fonctionnement .fonctionnement_card .fa-lg:hover {
+  color: #9356DC;
 }
 .fonctionnement .fonctionnement_card .fonctionnement_card_text {
   justify-content: center;

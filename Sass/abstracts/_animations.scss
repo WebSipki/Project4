@@ -34,7 +34,8 @@
   } 
 
 }
-
+  //La règle @keyframes permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS. 
+ //Cela permet de contrôler une animation plus finement que ce qu'on pourrait obtenir avec les transitions.
   /*ANIMATION loader */
  @keyframes spin {
    0% { transform: rotate(0deg); }
